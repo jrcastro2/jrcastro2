@@ -29,6 +29,11 @@ agentic workflows hands-on. Uses the Anthropic API and queries the
 call and in what order — search, citation lookup, metadata fetch — without that
 sequence being scripted.
 
+### [invenio-mcp](https://github.com/jrcastro2/invenio-mcp)
+An MCP (Model Context Protocol) server that exposes InvenioRDM record management
+as tools an LLM can call. Lets an AI assistant create drafts, set metadata, upload
+files, and publish records on a research repository through natural language.
+
 ---
 
 ## Open source
