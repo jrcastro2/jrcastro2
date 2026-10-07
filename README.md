@@ -7,8 +7,7 @@ building and maintaining scientific information platforms — primarily
 data management platform used by institutions worldwide.
 
 I work mostly in Python, with a focus on REST APIs, search infrastructure, and
-data workflows. Lately I've been exploring LLM integration — tool calling, agentic
-workflows, and RAG — and how those patterns fit into research platforms.
+data workflows.
 
 ---
 
