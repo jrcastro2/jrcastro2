@@ -7,7 +7,8 @@ building and maintaining scientific information platforms — primarily
 data management platform used by institutions worldwide.
 
 I work mostly in Python, with a focus on REST APIs, search infrastructure, and
-data workflows.
+data workflows. Lately I've been exploring LLM integration — tool calling, agentic
+workflows, and RAG — and how those patterns fit into research platforms.
 
 ---
 
@@ -33,6 +34,13 @@ sequence being scripted.
 An MCP (Model Context Protocol) server that exposes InvenioRDM record management
 as tools an LLM can call. Lets an AI assistant create drafts, set metadata, upload
 files, and publish records on a research repository through natural language.
+
+### [rag-paper-assistant](https://github.com/jrcastro2/rag-paper-assistant)
+A retrieval-augmented generation (RAG) system for question-answering over scientific
+paper abstracts. Built in stages to understand each component: hybrid search
+(dense vector + BM25 fused with RRF), cross-encoder reranking with a relevance
+threshold, contextual RAG enrichment, and grounded generation with Claude. Indexes
+real papers from the arXiv API.
 
 ---
 
