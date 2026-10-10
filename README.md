@@ -41,6 +41,12 @@ paper abstracts. Built in stages to understand each component: hybrid search
 threshold, contextual RAG enrichment, and grounded generation with Claude. Indexes
 real papers from the arXiv API.
 
+### [paper-metadata](https://github.com/jrcastro2/paper-metadata)
+Two LLM modules for processing scientific paper abstracts: a metadata extractor that
+returns reliable structured JSON (title, authors, identifiers) from clean or messy
+input, and a classifier that assigns arXiv-style categories using both zero-shot and
+few-shot prompting — with a side-by-side comparison to show where each approach wins.
+
 ---
 
 ## Open source
